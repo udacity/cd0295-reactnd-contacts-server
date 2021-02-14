@@ -3,6 +3,8 @@ const config = require('./config')
 
 const db = {}
 
+
+
 const defaultData = {
   contacts: [
     {
@@ -22,13 +24,7 @@ const defaultData = {
       name: 'Tyler McGinnis',
       email: 'tyler@reacttraining.com',
       avatarURL: config.origin + '/tyler.jpg'
-    },
-    {
-      id: '307f0b0c-529a-11eb-ae93-0242ac130003',
-      name: 'Guillaume',
-      email: 'Guillaume@dummy.com',
-      avatarURL: config.origin + '/dummy.jpg'
-  }
+    }
   ]
 }
 
