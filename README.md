@@ -8,10 +8,36 @@ You'll build the front end of the Contacts app throughout the course. Because th
 
 Getting the server running on your local machine takes only a few steps:
 
-1. clone the project - `git clone https://github.com/udacity/reactnd-contacts-server.git`
-2. `cd reactnd-contacts-server`
-3. install its dependencies - `npm install`
-4. start the server - `node server.js`
+1. Fork and then clone the repository. 
+
+
+2. Go inside the repository.
+
+3. Install dependencies, and generate "node_modules" and "package-lock.json" file. 
+```bash
+npm install
+```
+
+
+4. Set an environment variable
+```bash
+export FIRST_NAME="Sebastian"
+```
+
+5. Start the server
+```bash
+node server.js
+```
+
+6. If everything works fine, you can build the deployable artifacts:
+```bash
+# Create the files for Archive.zip
+npm run build
+# Create an Archive.zip in the exercise root directory
+npm run zip  
+```
+See the *package.json* to understand the npm scripts commands behaviour. 
+
 
 ## Contributing
 
