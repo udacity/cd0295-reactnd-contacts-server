@@ -39,6 +39,14 @@ npm run zip
 See the *package.json* to understand the npm scripts commands behaviour. 
 
 
+## Deloying to Elastic Beanstalk
+Choose a default region, and application name of your choice. Select Node.js 14 as the platform when it prompts. If you are familiar with logging into EC2 instance, you can choose to set up SSH for your instances. 
+```bash
+eb init
+eb create --sample --single --instance-types t2.small
+``` 
+
+
 ## Contributing
 
 We love receiving pull requests! For specifics on how to contribute to this project, check out the [contributing file](CONTRIBUTING.md).
